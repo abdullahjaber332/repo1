@@ -1,0 +1,113 @@
+body { 
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	font-family: 'Lato', sans-serif;
+	color: #2B2D2E;
+	background: #E7E7E7;	
+}
+
+.section-primary-block {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primary-block, .primary-block-2 {
+    background-color: #212223;
+    max-width: 1100px;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.712);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.712);
+    margin: 10px;
+    display: flex;
+}
+.primary-block {
+    color: white;
+    flex-direction: column;
+    height: auto;
+}
+.primary-block-2 {
+    background-color: #e7ebee;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    margin-right: 10px;
+}
+.add-btn {
+    border: none;
+    background-color: lightblue;
+    color: #0c0c0c;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 5px;
+    min-width: 50px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.control-group {
+    width: 30%;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.control-group-1 {
+    width: auto;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+.control-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: black;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.control-error {
+    font-size: 11px;
+    color: rgb(214, 100, 100);
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.control {
+    width: calc(100% - 10px);
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    background-color: white;
+    float: left;
+}
+table {
+    flex: 1 1 100%;
+    border: 1px solid #f0f0f0;
+}
+table tr th,
+table tr td {
+    border-bottom: 1px solid #f0f0f0;
+}
+table tr:last-child td {
+    border-bottom: none;
+}
+table tr td {
+    text-align: center;
+}
